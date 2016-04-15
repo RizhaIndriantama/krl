@@ -51,11 +51,7 @@ int main(){
             if(st_akhir > st_awal){
                 for(i=st_awal;i<st_akhir;i++){
                     a = i + 1;
-                    var = ("st_%d\n",a);
-                    jarak = jarak + ("st_%d\n",a);;
-                    printf("st_%d\n",a);
-                    printf("%f\n", jarak);
-                    printf("%f", var);
+                    
                 }
             }else{
                 printf("Stasiun Kedatangan Tidak Benar !\n");
